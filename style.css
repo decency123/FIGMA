@@ -1,0 +1,96 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+ /* head section */
+header {
+    padding: 1.69rem 2.06rem;
+}
+
+header.img {
+    height: 2.8rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2a446b;
+    text-align: center;
+}
+
+.form-container {
+    /* margin: 2.6rem; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  /* main-section */
+.main {
+    display: block;
+    position: relative;
+    top: -7vh;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    background-image: url("images/background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+
+.form {
+    background-color: white;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px #c7c5c5 solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
+    gap: 12px;
+    padding: 23px 0px;
+}
+
+.input-wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#email {
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    padding: 9px 3px;
+}
+
+#password {
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    padding: 9px 3px;
+}
+
+button {
+    width: 100%;
+    padding: 0.4em;
+    border-radius: 6px;
+    border: none;
+    background: #016a70;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+form p {
+    font-weight: 600;
+    gap: 9px;
+    display: flex;
+}
+
+form p a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
